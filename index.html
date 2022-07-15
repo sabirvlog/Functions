@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Functions- JavaScript Functions Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>We will practice about functions only in this tutorial section</h1>
+
+<!-- <div id="trial"> Print somethings from the help of the functions </div> -->
+
+		<!-- 1st part -->
+	<!-- <button type="button" onclick="myFun()">Press Now</button> -->
+		
+		<!-- 2nd part -->
+	<!-- <button type="button" onclick="addNums(2,5,6)">Press Now</button> -->
+
+		<!-- 3rd part -->
+		<!-- <div id="demo"></div> -->
+
+		<!-- 4rth -->
+	<!-- <div id="version"></div>
+	<button type="button" onclick="Func()">Press Now</button> -->
+	
+	<!-- 5th part -->
+	<!-- <div id="trend"></div>
+	<button onclick="masterFunction(21)">Click here</button> -->
+
+	<!-- 6th part -->
+	<!-- <div id="fruit"></div>
+	<button onclick="variable()">Call-Func</button> -->
+
+
+	<!-- 7th part -->
+	<div id="distance"></div>
+
+
+	<!-- Introduction -->
+<div class="bottom">
+	<h2>Functions In JavaScript</h2>
+	<p>This tutorial is all about the functions of the javascript</p>
+</div>
+
+</body>
+
+<!-- 3rd part -->
+	<script type="text/javascript">
+/*
+	function addNums(first,second,third) {
+		var sum = first + second + third;
+	document.getElementById('demo').innerHTML ="Total sum is " + sum;
+	// alert(sum);
+}
+	addNums(7, 14, 25);
+*/
+
+/*
+// 4rth part................
+	function myFun(num1, num2) {
+	var add = num1 + num2;
+	return add;
+	// alert(sum);
+}
+// the unction caller
+	document.getElementById('version').innerHTML = myFun(17, 14, 25);
+*/
+
+/*	
+	function myFun(n1, n2) {
+		// body...
+		var sum = n1 + n2;
+		return sum;
+	}
+	document.getElementById('version').innerHTML="The total sum is  " + myFun(20, 35);
+
+	// ..........................." Pop up message shows on click of the button"......
+	function Func() {
+		document.getElementById('version').innerHTML="Operation is successful";
+	}
+*/
+
+	// 5th part is started..............
+/*	
+	 function masterFun(firstName, lastName) {
+	 	return firstName + " " + lastName; 
+	 }
+	 var fullName = masterFun("Sabir" , "khan");
+	 document.getElementById('trend').innerHTML=fullName;
+*/
+
+/*	
+	function masterFunction(age) {
+		var fullName = "Sabir Khan";
+	 	document.getElementById('trend').innerHTML= 
+	 	"My name is " +"<q>"+ fullName + "</q>" +" and I am "+ "<q>" +age+ "</q>" +" years old.";
+	 }
+*/
+
+// About Global Variables.........
+/*
+	var fruit = "Mango";
+	function variable() {
+		document.getElementById('fruit').innerHTML="My favourite fruit is "+ fruit;
+	}
+*/
+
+	// About distance meauring........
+	function toMiles(kilometers) {
+		var miles = kilometers * 0.62137;
+		return kilometers + " kilometers/s "+" equals to "+  miles + " miles";
+	}
+	alert(toMiles(5));
+	document.getElementById('distance').innerHTML= toMiles(15);
+ </script>
+</html>
